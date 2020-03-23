@@ -5,17 +5,17 @@ import "./About.css";
 function About() {
   return (
     <>
-    <section id="largeLayout" className="Main">
-      <div className="row">
-        <div className="col-1 indentColumn"></div>
-        <div className="col-auto noLeft">
-          <div className="container" id="AboutContainer">
-            <h1 className="SubjectTitle">About</h1>
-            <hr id="titleLine" />
-            <div id="largeLayout" className="row">
-              <div className="col-auto">
-                <img src="./assets/images/AboutMe.png" width="150px" height="150px" className="img-fluid" alt="Profile" />
-                      </div>
+      <section id="largeLayout" className="Main">
+        <div className="row">
+          <div className="col-1 indentColumn"></div>
+          <div className="col-auto noLeft">
+            <div className="container" id="AboutContainer">
+              <h1 className="SubjectTitle">About</h1>
+              <hr id="titleLine" />
+              <div id="largeLayout" className="row">
+                <div className="col-auto">
+                  <img src="https://qlhuynh949.github.io/react-portfolio/assets/images/AboutMe.png" width="150px" height="150px" className="img-fluid" alt="Profile" />
+                </div>
                 <div className="col">
                   <p className="wordRap">
                     I am a computer programmer with over 20 years of software development in various industries. As a software development professional, I am engaged in learning new programming languages and methodologies hoping to
@@ -35,7 +35,7 @@ function About() {
               <h1 className="SubjectTitle">About</h1>
               <hr id="titleLine" />
               <div className="card" >
-                <img className="card-img-top" src="./assets/images/AboutMe.png" alt="Profile" />
+                <img className="card-img-top" src="https://qlhuynh949.github.io/react-portfolio/assets/images/AboutMe.png" alt="Profile" />
                 <div className="card-body">
                   <p className="card-text" id="smallLayoutParagraph">
                     I am a computer programmer with over 20 years of software development in various industries. As a software
@@ -50,7 +50,7 @@ function About() {
           </div>
         </div>
       </section>
-      </>
+    </>
   )
 }
 

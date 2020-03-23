@@ -19,7 +19,7 @@ function Portfolio() {
                     <div className="row">
                       <div className="col-6">
                         <div className="card" >
-                          <a href="https://cprom.github.io/running-wild/"><img className="card-img-top" src="./assets/images/UCIEats.png" alt="UCI Eats" height="200px" width="200px" /></a>
+                          <a href="https://cprom.github.io/running-wild/"><img className="card-img-top" src="https://qlhuynh949.github.io/react-portfolio/assets/images/UCIEats.png" alt="UCI Eats" height="200px" width="200px" /></a>
                             <div className="card-body">
                               <p className="card-text"><a href="https://cprom.github.io/running-wild/">UCI Eats</a> - An application to help plan out a weekend</p>
                             </div>
@@ -27,7 +27,7 @@ function Portfolio() {
                         </div>
                         <div className="col-6">
                           <div className="card" >
-                            <img className="card-img-top" src="./assets/images/eFlow.png" alt="eFlow" height="200px"
+                          <img className="card-img-top" src="https://qlhuynh949.github.io/react-portfolio/assets/images/eFlow.png" alt="eFlow" height="200px"
                               width="200px" />
                             <div className="card-body">
                               <p className="card-text"><a href="https://github.com/ariasadeghi530/eFlow-/">eFlow GitHub</a>
@@ -95,7 +95,7 @@ function Portfolio() {
                       <div className="row">
                         <div className="col-6">
                           <div className="card" >
-                            <a href="https://cprom.github.io/running-wild/"><img className="card-img-top" src="./assets/images/UCIEats.png"
+                          <a href="https://cprom.github.io/running-wild/"><img className="card-img-top" src="https://qlhuynh949.github.io/react-portfolio/assets/images/UCIEats.png"
                               alt="UCI Eats" height="200px" width="200px" /></a>
                             <div className="card-body">
                               <p className="card-text"><a href="https://cprom.github.io/running-wild/">UCI Eats</a> - An application to help plan out
@@ -107,7 +107,7 @@ function Portfolio() {
                       <div className="row">
                         <div className="col-6">
                           <div className="card" >
-                            <img className="card-img-top" src="./assets/images/eFlow.png" alt="eFlow" height="200px" width="200px" />
+                          <img className="card-img-top" src="https://qlhuynh949.github.io/react-portfolio/assets/images/eFlow.png" alt="eFlow" height="200px" width="200px" />
                             <div className="card-body">
                               <p className="card-text"><a href="https://github.com/ariasadeghi530/eFlow-/">eFlow GitHub</a></p>
                               <p className="card-text"><a href="https://frozen-atoll-04274.herokuapp.com/">eFlow Heroku Deployment</a> - eFlow is an only trade, buy, sell web application for electronics, automotive and apparel</p>
