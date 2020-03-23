@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import AboutMe from "./AboutMe.png"
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function About() {
@@ -14,7 +15,7 @@ function About() {
               <hr id="titleLine" />
               <div id="largeLayout" className="row">
                 <div className="col-auto">
-                  <img src="https://qlhuynh949.github.io/react-portfolio/assets/images/AboutMe.png" width="150px" height="150px" className="img-fluid" alt="Profile" />
+                  <img src={AboutMe} width="150px" height="150px" className="img-fluid" alt="Profile" />
                 </div>
                 <div className="col">
                   <p className="wordRap">
@@ -35,7 +36,7 @@ function About() {
               <h1 className="SubjectTitle">About</h1>
               <hr id="titleLine" />
               <div className="card" >
-                <img className="card-img-top" src="https://qlhuynh949.github.io/react-portfolio/assets/images/AboutMe.png" alt="Profile" />
+                <img className="card-img-top" src={AboutMe} alt="Profile" />
                 <div className="card-body">
                   <p className="card-text" id="smallLayoutParagraph">
                     I am a computer programmer with over 20 years of software development in various industries. As a software
