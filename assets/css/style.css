@@ -1,0 +1,144 @@
+  .Header {
+    display: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+  }
+
+  .navContainer {
+    background-color: #343a40;
+    width: 100%;
+  }
+
+  .wordRap {
+    overflow-wrap: break-word;
+  }
+
+  #smallLayoutParagraph {
+    font-size: 12px;
+  }
+
+  #navSpan {
+    display: block;
+    background-color: #ffffff;
+    color: black;
+    text-align: centert;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .indentColumn {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 50px;
+  }
+
+  .noLeft {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .SubjectTitle {
+    font-size: 20px;
+    color: darkblue;
+    font-weight: bold;
+    width: 100%
+  }
+
+  .container {
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+  }
+
+  .Main {
+    width: 100%;
+    padding-top: 20px;
+    background-color: lightgray;
+  }
+
+  #largeLayout {
+    width: 100%;
+  }
+
+  #smallLayout {
+    display: none;
+  }
+
+  #titleLine {
+    color: darkblue;
+    background-color: darkblue;
+    height: 1px;
+    width: 100%
+  }
+
+  .Footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    border-top: solid;
+    border-width: 5px;
+    border-top-color: white;
+  }
+
+  body {
+    background-color: lightgray;
+  }
+
+  @media (max-width: 767px) {
+    .Header {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background-color: black;
+      color: white;
+      font-size: 30px;
+    }
+
+    .SubjectTitle {
+      font-size: 30px;
+      color: darkblue;
+      font-weight: bold;
+      width: 300px;
+    }
+
+    #navSpan {
+      display: none;
+    }
+
+    #titleLine {
+      color: darkblue;
+      background-color: darkblue;
+      height: 1px;
+    }
+
+    .Main {
+      width: 100%;
+      padding-top: 20px;
+      background-color: lightgray;
+    }
+
+    #smallLayout {
+      display: block;
+    }
+
+    #largeLayout {
+      width: 100%;
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .SubjectTitle {
+      font-size: 30px;
+      color: darkblue;
+      font-weight: bold;
+      width: 767px;
+    }
+  }
